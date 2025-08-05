@@ -1,8 +1,6 @@
-**Home Page**: Overview of all component features
-- **Demo Page**: Interactive examples of each component type
-- **Navigation**: Automatic routing with NuxtLink
-- **Responsive Design**: Works on all screen sizes
 
+## How to Run
 
-
-Auto-Import (no need to import), Naming Convention (base/Button.vue → <BaseButton>), Dynamic Components (<component :is="...">), Lazy Loading (<LazyImageGallery>), Client Components (.client.vue for browser only), Server Components (.server.vue for server only), Built-in Components (<NuxtPage>, <NuxtLink>), Custom Directories (base/, ui/), Component Composition (reusable components with slots).
+1. Install dependencies: `npm install`
+2. Start development server: `npm run dev`
+3. Visit `http://localhost:3000`
