@@ -1,0 +1,5 @@
+Home:http://localhost:3000
+About:http://localhost:3000/about
+Portfolio:http://localhost:3000/portfolio
+
+Product page by id:http://localhost:3000/product/11
