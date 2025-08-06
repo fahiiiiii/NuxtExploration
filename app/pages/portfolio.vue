@@ -1,14 +1,14 @@
 <template>
     <div>
         <h2>Hello from portfolio page</h2>
-         <NuxtLink to="/index">Home</NuxtLink>
-        <NuxtLink to="/about">About</NuxtLink>
-        <NuxtLink to="/portfolio">Portfolio</NuxtLink>
+         
     </div>
 </template>
 
 <script setup>
-
+ useHead({
+        title:"Portfolio page"
+    })
 </script>
 
 <style lang="scss" scoped>

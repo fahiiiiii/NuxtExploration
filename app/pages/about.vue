@@ -1,14 +1,17 @@
 <template>
     <div>
-        <h2>Hello from about page</h2>
-         <NuxtLink to="/index">Home</NuxtLink>
-        <NuxtLink to="/about">About</NuxtLink>
-        <NuxtLink to="/portfolio">Portfolio</NuxtLink>
+        <About />
     </div>
 </template>
 
 <script setup>
-
+    definePageMeta({
+        // layout:false
+        layout:'aboutLayout'
+    })
+     useHead({
+        title:"About page"
+    })
 </script>
 
 <style lang="scss" scoped>

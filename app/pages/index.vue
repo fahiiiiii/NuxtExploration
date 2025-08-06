@@ -1,16 +1,16 @@
 <template>
     <div>
         <h2>Hello from home page</h2>
-        <NuxtLink to="/index">Home</NuxtLink>
-        <NuxtLink to="/about">About</NuxtLink>
-        <NuxtLink to="/portfolio">Portfolio</NuxtLink>
+       <Home />
     </div>
 </template>
 
 <script setup>
+    useHead({
+        title:"Home page"
+    })
 
 </script>
-
 <style lang="scss" scoped>
 
 </style>
